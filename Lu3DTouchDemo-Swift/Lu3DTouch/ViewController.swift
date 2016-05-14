@@ -12,30 +12,23 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         self.view.backgroundColor = UIColor ( red: 0.1373, green: 0.9291, blue: 0.9492, alpha: 1.0 )
-
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     func OneViewController(){
-        
-        alertShow("You pressed Icon One")
+        alertShow("这个是样式一")
     }
     
     func TwoViewController(){
-        alertShow("You pressed Icon Two")
+        alertShow("这个是样式二")
     }
     
     func ThreeViewController(){
-        alertShow("You pressed Icon Three")
+        alertShow("这个是样式三")
     }
+    
     func FourthViewController(){
-        alertShow("You pressed Icon Three")
+        alertShow("这个是样式四")
     }
 
     func alertShow(text: String) {
@@ -51,7 +44,7 @@ class ViewController: UIViewController {
         self.presentViewController(alert, animated: true, completion: nil)
         
         }else{
-        
+            
             let alert1 = UIAlertView(title: "标题", message: text, delegate: self, cancelButtonTitle: "确定")
         }
     }

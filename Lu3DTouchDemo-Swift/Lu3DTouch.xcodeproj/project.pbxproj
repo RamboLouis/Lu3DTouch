@@ -12,6 +12,7 @@
 		F5EAD95A1CE4C55600AD4B83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5EAD9581CE4C55600AD4B83 /* Main.storyboard */; };
 		F5EAD95C1CE4C55600AD4B83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5EAD95B1CE4C55600AD4B83 /* Assets.xcassets */; };
 		F5EAD95F1CE4C55600AD4B83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5EAD95D1CE4C55600AD4B83 /* LaunchScreen.storyboard */; };
+		F5EAD96B1CE4FED000AD4B83 /* oneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EAD96A1CE4FED000AD4B83 /* oneViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F5EAD95B1CE4C55600AD4B83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5EAD95E1CE4C55600AD4B83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5EAD9601CE4C55600AD4B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5EAD96A1CE4FED000AD4B83 /* oneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = oneViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				F5EAD9541CE4C55600AD4B83 /* AppDelegate.swift */,
 				F5EAD9561CE4C55600AD4B83 /* ViewController.swift */,
+				F5EAD96A1CE4FED000AD4B83 /* oneViewController.swift */,
 				F5EAD9581CE4C55600AD4B83 /* Main.storyboard */,
 				F5EAD95B1CE4C55600AD4B83 /* Assets.xcassets */,
 				F5EAD95D1CE4C55600AD4B83 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				F5EAD9571CE4C55600AD4B83 /* ViewController.swift in Sources */,
 				F5EAD9551CE4C55600AD4B83 /* AppDelegate.swift in Sources */,
+				F5EAD96B1CE4FED000AD4B83 /* oneViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
