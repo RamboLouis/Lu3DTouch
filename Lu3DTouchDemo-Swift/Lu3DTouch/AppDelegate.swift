@@ -117,5 +117,5 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         completionHandler(handledShortCutItem)
     }
-  }
+}
 
